@@ -1,19 +1,20 @@
 plugin: amazon.aws.aws_ec2
 
 regions:
-- us-east-1
+  - us-east-1
 
 hostnames:
-- private-ip-address
+  - private-ip-address
 
 filters:
   instance-state-name: running
-  tag:Name: frontent-dev
+  tag:Name: frontend-dev
 
 compose:
   ansible_host: private-ip-address
 
-keyd_groups:
-- separator: ''
-  key: tags.component
+keyed_groups:
+  - key: tags.component
+    separator: ''
+  
 
