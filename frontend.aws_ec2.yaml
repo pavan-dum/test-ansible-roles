@@ -16,5 +16,6 @@ compose:
 keyed_groups:
   - key: tags.Component
     prefix: ""
-  
+    separator: ""
+
 
