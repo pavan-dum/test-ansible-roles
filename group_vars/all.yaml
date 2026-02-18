@@ -6,4 +6,5 @@ redis_host: redis-dev.dpavan.online
 user_host: user-dev.dpavan.online
 cart_host: cart-dev.dpavan.online
 mysql_host: mysql-dev.dpavan.online
+shipping_host: shipping-dev.dpavan.online
 
