@@ -15,6 +15,6 @@ compose:
 
 keyed_groups:
   - key: tags.component
-    separator: ''
+    prefix: ""
   
 
