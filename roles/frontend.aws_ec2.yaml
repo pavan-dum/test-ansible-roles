@@ -3,17 +3,17 @@ plugin: amazon.aws.aws_ec2
 regions:
 - us-east-1
 
-hostnames:
-- private-ip-address
+# hostnames:
+# - private-ip-address
 
-filters:
-  instance-state-name: running
-  tag:Name: frontent-dev
+# filters:
+#   instance-state-name: running
+#   tag:Name: frontent-dev
 
-compose:
-  ansible_host: private-ip-address
+# compose:
+#   ansible_host: private-ip-address
 
-keyd_groups:
-- separator: ''
-  key: tags.component
+# keyd_groups:
+# - separator: ''
+#   key: tags.component
 
