@@ -4,4 +4,5 @@ mongodb_host: mongodb-dev.dpavan.online
 catalogue_host: catalogue-dev.dpavan.online
 redis_host: redis-dev.dpavan.online
 user_host: user-dev.dpavan.online
+cart_host: cart-dev.dpavan.online
 
